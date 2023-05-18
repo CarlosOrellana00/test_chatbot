@@ -10,6 +10,19 @@ html, body{
   height: 100%;
   place-items: center;
 }
+::-webkit-scrollbar{
+  width: 3px;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+  background: #ddd;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #ccc;
+}
 .wrapper{
   width: 370px;
   background: #fff;
@@ -62,6 +75,10 @@ html, body{
   border-radius: 10px;
   padding: 8px 10px;
   font-size: 14px;
+}
+.form .user-inbox .msg-header p{
+  color: #333;
+  background: #efefef;
 }
 .wrapper .typing-field{
   display: flex;

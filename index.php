@@ -14,13 +14,52 @@
   <div class="wrapper">
     <div class="title">Una Simple Prueba de un ChatBot Online</div>
       <div class="form">
+
         <div class="bot-inbox inbox">
-          <div class="icon"><i class="fas fa-user"></i>
+          <div class="icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="msg-header">
+            <p>Hello there, how i can help you?</p>
+          </div>
         </div>
-        <div class="msg-header">
-          <p>Hello there, how i can help you?</p>
+
+        <div class="user-inbox inbox">
+          <div class="msg-header">
+            <p>Hi, i'm a message sender</p>
+          </div>
         </div>
-      </div>
+        <!--  -->
+        <div class="bot-inbox inbox">
+          <div class="icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="msg-header">
+            <p>Hello there, how i can help you?</p>
+          </div>
+        </div>
+
+        <div class="user-inbox inbox">
+          <div class="msg-header">
+            <p>Hi, i'm a message sender</p>
+          </div>
+        </div>
+
+        <div class="bot-inbox inbox">
+          <div class="icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="msg-header">
+            <p>Hello there, how i can help you?</p>
+          </div>
+        </div>
+
+        <div class="user-inbox inbox">
+          <div class="msg-header">
+            <p>Hi, i'm a message sender</p>
+          </div>
+        </div>
+
     </div>
     <div class="typing-field">
       <div class="input-data">
