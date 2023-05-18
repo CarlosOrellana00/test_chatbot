@@ -21,7 +21,7 @@
             <i class="fas fa-user"></i>
           </div>
           <div class="msg-header">
-            <p>Hello there, how i can help you?</p>
+            <p>Hola! ¿como puedo ayudarte?</p>
           </div>
         </div>
 
@@ -37,7 +37,19 @@
     $(document).ready(function(){
       $("#send-btn").on("click", function(){
         $value = $("#data").val();
-        alert($value);
+        // alert($value);
+        $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
+        $(".form").append($msg);
+        $("#data").val('');
+        //AJAX
+        $.ajax([
+          url:'assets/connection/message.php',
+          type:'POST',
+          data: 'text ='+ $value,
+          success: function(result){
+
+          }
+        ]);
       });
     });
   </script>
