@@ -24,7 +24,7 @@
     </div>
     <div class="typing-field">
       <div class="input-data">
-        <input type="text" placeholder="escribe algo aqui">
+        <input type="text" placeholder="escribe algo aqui" required>
         <button>Enviar</button>
       </div>
     </div>
