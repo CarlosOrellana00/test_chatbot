@@ -49,6 +49,7 @@
           success: function(result){
             $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
             $(".form").append($replay);
+            $(".form").srcollTop($(".form")[0].scrollHeight);
           }
         });
       });
