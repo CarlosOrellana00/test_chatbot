@@ -45,7 +45,7 @@
         $.ajax({
           url:'assets/php/message.php',
           type:'POST',
-          data: 'text ='+ $value,
+          data: 'text='+ $value,
           success: function(result){
             $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-user"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
             $(".form").append($replay);
